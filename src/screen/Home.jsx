@@ -7,7 +7,16 @@ import Tasks from "../components/Tasks/Tasks"
 import { styles } from './styles'
 import { colors } from "../theme/colors";
 
+import { Dimensions } from 'react-native';
+
 export default function Home() {
+
+  const windowWidth = Dimensions.get('window').width
+  const windowHeight = Dimensions.get('window').height
+
+  console.log("w:",windowWidth)
+  console.log("h:",windowHeight)
+
   return(
     <View style={styles.container} >
       <View style={styles.header} >

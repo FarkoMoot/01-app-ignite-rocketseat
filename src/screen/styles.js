@@ -31,7 +31,6 @@ export const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 0,
     marginTop: 0,
-    backgroundColor: colors.danger,
     alignItems: 'center',
   },
 })
